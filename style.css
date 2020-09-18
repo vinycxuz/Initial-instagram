@@ -1,0 +1,84 @@
+header {
+  width: 100%;
+  height: 70px;
+}
+body {
+  background-color: #fafafa;
+}
+ul {
+  list-style-type: none;
+}
+.Principal {
+  width: 100%;
+  min-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left {
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+}
+.right {
+  display: flex;
+  flex-flow: column;
+  background-color: #fff;
+  border: 1px;
+  border-style: solid;
+  border-color: #c2c2c2;
+  padding: 34px 31px;
+  margin-right: 100px;
+
+}
+.logo {
+  flex: 1;
+  padding-left: 35px;
+}
+.login {
+  list-style-type: none;
+  padding: 10px;
+  font-family: Verdana;
+}
+.botao {
+  background-color: #0095F6;
+  color: #fff;
+  padding: 8px 37px;
+  border-radius: 5px;
+
+}
+.botao a {
+  text-decoration: none;
+  color: #fff;
+}
+.trocar a {
+  text-decoration: none;
+  color: #0095F6;
+  font-weight: bold;
+}
+.login li {
+ margin-bottom: 20px;
+ text-decoration: none;
+}
+.rodape{
+  margin-top: 90px;
+  padding-bottom: 20px;
+}
+.rodape ul {
+  display: flex;
+  flex-direction: row;
+}
+.itens-rodape li {
+  margin: 9px;
+  font-size: 12px;
+  font-weight: bold;
+  color: #8e8e8e;
+}
+.itens-rodape li a {
+  text-decoration: none;
+  list-style-type: none;
+  color: #003799
+}
+.identificacao {
+  padding-left: 110px;
+}
